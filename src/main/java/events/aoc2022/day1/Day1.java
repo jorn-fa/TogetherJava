@@ -1,11 +1,11 @@
-package events.aoc2022;
+package events.aoc2022.day1;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
-public class Challenge1 {
+public class Day1 {
 
 
 
@@ -39,6 +39,8 @@ public class Challenge1 {
 
         //get max total
         System.out.println(totals.get(Collections.max(totals.entrySet(), Comparator.comparingInt(Map.Entry::getValue)).getKey()));
+
+
 
     }
 
